@@ -11,7 +11,7 @@ package gobyexample
 import "flag"
 import "fmt"
 
-func flags_example() {
+func FlagsExample() {
 
 	// Basic flag declarations are available for string,
 	// integer, and boolean options. Here we declare a

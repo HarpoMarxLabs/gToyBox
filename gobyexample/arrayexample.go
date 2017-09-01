@@ -5,7 +5,7 @@ package gobyexample
 
 import "fmt"
 
-func array_example() {
+func ArrayExample() {
 
 	// Here we create an array `a` that will hold exactly
 	// 5 `int`s. The type of elements and length are both

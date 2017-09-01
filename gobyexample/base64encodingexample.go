@@ -9,7 +9,7 @@ package gobyexample
 import b64 "encoding/base64"
 import "fmt"
 
-func b64encexample() {
+func B64EncExample() {
 
 	// Here's the `string` we'll encode/decode.
 	data := "abc123!?$*&()'-=@~"

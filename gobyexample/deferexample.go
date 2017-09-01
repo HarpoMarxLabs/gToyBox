@@ -11,7 +11,7 @@ import "os"
 // Suppose we wanted to create a file, write to it,
 // and then close when we're done. Here's how we could
 // do that with `defer`.
-func deffere_example() {
+func DefereExample() {
 
 	// Immediately after getting a file object with
 	// `createFile`, we defer the closing of that file

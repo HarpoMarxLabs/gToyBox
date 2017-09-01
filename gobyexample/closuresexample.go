@@ -19,7 +19,7 @@ func intSeq_clos() func() int {
 	}
 }
 
-func closure_example() {
+func ClosureExample() {
 
 	// We call `intSeq_clos`, assigning the result (a function)
 	// to `nextInt`. This function value captures its

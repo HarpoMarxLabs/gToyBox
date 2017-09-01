@@ -7,7 +7,7 @@ package gobyexample
 
 import "fmt"
 
-func channel_sync_example() {
+func ChannelSyncExample() {
 
 	// Create a new channel with `make(chan val-type)`.
 	// Channels are typed by the values they convey.

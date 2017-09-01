@@ -8,7 +8,7 @@ package gobyexample
 import "os"
 import "fmt"
 
-func command_line_args_example() {
+func CommandLineArgsExample() {
 
 	// `os.Args` provides access to raw command-line
 	// arguments. Note that the first value in this slice

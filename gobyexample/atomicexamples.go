@@ -11,7 +11,7 @@ import "fmt"
 import "time"
 import "sync/atomic"
 
-func atomic_examples() {
+func AtomicExamples() {
 
 	// We'll use an unsigned integer to represent our
 	// (always-positive) counter.

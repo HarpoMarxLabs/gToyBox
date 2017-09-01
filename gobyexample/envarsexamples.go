@@ -9,7 +9,7 @@ import "os"
 import "strings"
 import "fmt"
 
-func envars_example() {
+func EnvarsExample() {
 
 	// To set a key/value pair, use `os.Setenv`. To get a
 	// value for a key, use `os.Getenv`. This will return

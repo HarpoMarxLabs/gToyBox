@@ -82,7 +82,7 @@ func Map(vs []string, f func(string) string) []string {
 	return vsm
 }
 
-func collection_func_example() {
+func CollectionFuncExample() {
 
 	// Here we try out our various collection functions.
 	var strs = []string{"peach", "apple", "pear", "plum"}

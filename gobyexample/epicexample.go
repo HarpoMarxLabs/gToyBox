@@ -8,7 +8,7 @@ package gobyexample
 import "fmt"
 import "time"
 
-func epic_example() {
+func EpicExample() {
 
 	// Use `time.Now` with `Unix` or `UnixNano` to get
 	// elapsed time since the Unix epoch in seconds or

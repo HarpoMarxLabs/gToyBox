@@ -9,7 +9,7 @@ import "math"
 // `const` declares a constant value.
 const s string = "constant"
 
-func constants_example() {
+func ConstantsExample() {
 	fmt.Println(s)
 
 	// A `const` statement can appear anywhere a `var`
