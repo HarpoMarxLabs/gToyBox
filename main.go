@@ -120,36 +120,140 @@ func main() {
 	gobyexample.MultipleReturnsExample()
 	fmt.Println(strings.Repeat("#", 30))
 
-	fmt.Println("ClosingChannel Example")
-	gobyexample.ClosingChannelExample()
+	fmt.Println("MutexExamples Example")
+	gobyexample.MutexExamples()
 	fmt.Println(strings.Repeat("#", 30))
 
-	fmt.Println("ClosingChannel Example")
-	gobyexample.ClosingChannelExample()
+	fmt.Println("NbChannelsExample Example")
+	gobyexample.NbChannelsExample()
 	fmt.Println(strings.Repeat("#", 30))
 
-	fmt.Println("ClosingChannel Example")
-	gobyexample.ClosingChannelExample()
+	fmt.Println("NumberParsingExamples Example")
+	gobyexample.NumberParsingExamples()
 	fmt.Println(strings.Repeat("#", 30))
 
-	fmt.Println("ClosingChannel Example")
-	gobyexample.ClosingChannelExample()
+	fmt.Println("PanicExamples Example")
+	gobyexample.PanicExamples()
 	fmt.Println(strings.Repeat("#", 30))
 
-	fmt.Println("ClosingChannel Example")
-	gobyexample.ClosingChannelExample()
+	fmt.Println("PointersExample Example")
+	gobyexample.PointersExample()
 	fmt.Println(strings.Repeat("#", 30))
 
-	fmt.Println("ClosingChannel Example")
-	gobyexample.ClosingChannelExample()
+	fmt.Println("RangeExample Example")
+	gobyexample.RangeExample()
 	fmt.Println(strings.Repeat("#", 30))
 
-	fmt.Println("ClosingChannel Example")
-	gobyexample.ClosingChannelExample()
+	fmt.Println("RangeOverChannelsExample Example")
+	gobyexample.RangeOverChannelsExample()
 	fmt.Println(strings.Repeat("#", 30))
 
-	fmt.Println("ClosingChannel Example")
-	gobyexample.ClosingChannelExample()
+	fmt.Println("RateLimitingExample Example")
+	gobyexample.RateLimitingExample()
+	fmt.Println(strings.Repeat("#", 30))
+
+	fmt.Println("RedingFilesExamples Example")
+	gobyexample.RedingFilesExamples()
+	fmt.Println(strings.Repeat("#", 30))
+
+	fmt.Println("RecursionExample Example")
+	gobyexample.RecursionExample()
+	fmt.Println(strings.Repeat("#", 30))
+
+	fmt.Println("RegexExample Example")
+	gobyexample.RegexExample()
+	fmt.Println(strings.Repeat("#", 30))
+
+	fmt.Println("RandomNumbersExample Example")
+	gobyexample.RandomNumbersExample()
+	fmt.Println(strings.Repeat("#", 30))
+
+	fmt.Println("SelectExample Example")
+	gobyexample.SelectExample()
+	fmt.Println(strings.Repeat("#", 30))
+
+	fmt.Println("Sha1Example Example")
+	gobyexample.Sha1Example()
+	fmt.Println(strings.Repeat("#", 30))
+
+	fmt.Println("SignalsExample Example")
+	gobyexample.SignalsExample()
+	fmt.Println(strings.Repeat("#", 30))
+
+	fmt.Println("SlicesExample Example")
+	gobyexample.SlicesExample()
+	fmt.Println(strings.Repeat("#", 30))
+
+	fmt.Println("SortExample Example")
+	gobyexample.SortExample()
+	fmt.Println(strings.Repeat("#", 30))
+
+	fmt.Println("SortByFuncExample Example")
+	gobyexample.SortByFuncExample()
+	fmt.Println(strings.Repeat("#", 30))
+
+	fmt.Println("SpawningProcessExample Example")
+	gobyexample.SpawningProcessExample()
+	fmt.Println(strings.Repeat("#", 30))
+
+	fmt.Println("StGorutExample Example")
+	gobyexample.StGorutExample()
+	fmt.Println(strings.Repeat("#", 30))
+
+	fmt.Println("StFormatExample Example")
+	gobyexample.StFormatExample()
+	fmt.Println(strings.Repeat("#", 30))
+
+	fmt.Println("StrFuncExample Example")
+	gobyexample.StrFuncExample()
+	fmt.Println(strings.Repeat("#", 30))
+
+	fmt.Println("StructsExample Example")
+	gobyexample.StructsExample()
+	fmt.Println(strings.Repeat("#", 30))
+
+	fmt.Println("SwitchExample Example")
+	gobyexample.SwitchExample()
+	fmt.Println(strings.Repeat("#", 30))
+
+	fmt.Println("TickerExample Example")
+	gobyexample.TickerExample()
+	fmt.Println(strings.Repeat("#", 30))
+
+	fmt.Println("TimeExample Example")
+	gobyexample.TimeExample()
+	fmt.Println(strings.Repeat("#", 30))
+
+	fmt.Println("TformatExample Example")
+	gobyexample.TformatExample()
+	fmt.Println(strings.Repeat("#", 30))
+
+	fmt.Println("TimeoutExample Example")
+	gobyexample.TimeoutExample()
+	fmt.Println(strings.Repeat("#", 30))
+
+	fmt.Println("TimersExample Example")
+	gobyexample.TimersExample()
+	fmt.Println(strings.Repeat("#", 30))
+
+	fmt.Println("UrlParseExample Example")
+	gobyexample.UrlParseExample()
+	fmt.Println(strings.Repeat("#", 30))
+
+	fmt.Println("VarExample Example")
+	gobyexample.VarExample()
+	fmt.Println(strings.Repeat("#", 30))
+
+	fmt.Println("VarFuncExample Example")
+	gobyexample.VarFuncExample()
+	fmt.Println(strings.Repeat("#", 30))
+
+	fmt.Println("WorkerPoolExample Example")
+	gobyexample.WorkerPoolExample()
+	fmt.Println(strings.Repeat("#", 30))
+
+	fmt.Println("WriteFileExample Example")
+	gobyexample.WriteFileExample()
 	fmt.Println(strings.Repeat("#", 30))
 
 }
