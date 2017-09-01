@@ -25,7 +25,7 @@ func zeroptr(iptr *int) {
 	*iptr = 0
 }
 
-func pointers_example() {
+func PointersExample() {
 	i := 1
 	fmt.Println("initial:", i)
 

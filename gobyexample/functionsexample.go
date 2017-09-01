@@ -23,7 +23,7 @@ func plusPlus(a, b, c int) int {
 	return a + b + c
 }
 
-func function_example() {
+func FunctionExample() {
 
 	// Call a function just as you'd expect, with
 	// `name(args)`.

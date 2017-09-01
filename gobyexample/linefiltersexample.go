@@ -15,7 +15,7 @@ import (
 	"strings"
 )
 
-func line_filter_example() {
+func LineFilterExample() {
 
 	// Wrapping the unbuffered `os.Stdin` with a buffered
 	// scanner gives us a convenient `Scan` method that

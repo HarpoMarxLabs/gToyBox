@@ -12,7 +12,7 @@ func vals() (int, int) {
 	return 3, 7
 }
 
-func multiple_returns_example() {
+func MultipleReturnsExample() {
 
 	// Here we use the 2 different return values from the
 	// call with _multiple assignment_.

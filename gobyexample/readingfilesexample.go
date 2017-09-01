@@ -20,7 +20,7 @@ func check_rfe(e error) {
 	}
 }
 
-func reding_files_examples() {
+func RedingFilesExamples() {
 
 	// Perhaps the most basic file reading task is
 	// slurping a file's entire contents into memory.

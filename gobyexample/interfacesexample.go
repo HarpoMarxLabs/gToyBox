@@ -49,7 +49,7 @@ func measure(g geometry) {
 	fmt.Println(g.perim())
 }
 
-func interface_example() {
+func InterfaceExample() {
 	r := rect_iface{width: 3, height: 4}
 	c := circle{radius: 5}
 

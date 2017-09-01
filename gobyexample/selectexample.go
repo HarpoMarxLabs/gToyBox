@@ -7,7 +7,7 @@ package gobyexample
 import "time"
 import "fmt"
 
-func select_example() {
+func SelectExample() {
 
 	// For our example we'll select across two channels.
 	c1 := make(chan string)

@@ -34,7 +34,7 @@ type writeOp struct {
 	resp chan bool
 }
 
-func st_gorut_example() {
+func StGorutExample() {
 
 	// As before we'll count how many operations we perform.
 	var readOps uint64 = 0

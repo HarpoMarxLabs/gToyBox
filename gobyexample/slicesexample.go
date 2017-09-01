@@ -5,7 +5,7 @@ package gobyexample
 
 import "fmt"
 
-func slices_example() {
+func SlicesExample() {
 
 	// Unlike arrays, slices are typed only by the
 	// elements they contain (not the number of elements).

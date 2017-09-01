@@ -36,7 +36,7 @@ func (s ByLength) Less(i, j int) bool {
 // custom sort by casting the original `fruits` slice to
 // `ByLength`, and then use `sort.Sort` on that typed
 // slice.
-func sort_by_func_example() {
+func SortByFuncExample() {
 	fruits := []string{"peach", "banana", "kiwi"}
 	sort.Sort(ByLength(fruits))
 	fmt.Println(fruits)

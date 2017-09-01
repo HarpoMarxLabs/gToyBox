@@ -5,7 +5,7 @@ package gobyexample
 
 import "fmt"
 
-func maps_example() {
+func MapsExample() {
 
 	// To create an empty map, use the builtin `make`:
 	// `make(map[key-type]val-type)`.

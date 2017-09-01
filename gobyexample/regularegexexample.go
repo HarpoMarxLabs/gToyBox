@@ -8,7 +8,7 @@ import "bytes"
 import "fmt"
 import "regexp"
 
-func regular_example() {
+func RegexExample() {
 
 	// This tests whether a pattern matches a string.
 	match, _ := regexp.MatchString("p([a-z]+)ch", "peach")

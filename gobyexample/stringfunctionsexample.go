@@ -11,7 +11,7 @@ import "fmt"
 // it a lot below.
 var p = fmt.Println
 
-func str_func_example() {
+func StrFuncExample() {
 
 	// Here's1 a sample of the functions available in
 	// `strings`. Since these are functions from the

@@ -7,7 +7,7 @@ import "fmt"
 import "net"
 import "net/url"
 
-func url_parse_example() {
+func UrlParseExample() {
 
 	// We'll parse this example URL, which includes a
 	// scheme, authentication info, host, port, path,

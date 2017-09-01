@@ -16,7 +16,7 @@ func check_wfe(e error) {
 	}
 }
 
-func write_file_example() {
+func WriteFileExample() {
 
 	// To start, here's how to dump a string (or just
 	// bytes) into a file.

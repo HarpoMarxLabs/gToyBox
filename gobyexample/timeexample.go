@@ -6,7 +6,7 @@ package gobyexample
 import "fmt"
 import "time"
 
-func time_example() {
+func TimeExample() {
 	p := fmt.Println
 
 	// We'll start by getting the current time.

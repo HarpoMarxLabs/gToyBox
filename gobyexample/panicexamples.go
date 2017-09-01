@@ -7,7 +7,7 @@ package gobyexample
 
 import "os"
 
-func panic_examples() {
+func PanicExamples() {
 
 	// We'll use panic throughout this site to check_wfe for
 	// unexpected errors. This is the only program on the

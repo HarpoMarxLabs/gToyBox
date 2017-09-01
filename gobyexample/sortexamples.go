@@ -7,7 +7,7 @@ package gobyexample
 import "fmt"
 import "sort"
 
-func sort_example() {
+func SortExample() {
 
 	// Sort methods are specific to the builtin type;
 	// here's an example for strings. Note that sorting is

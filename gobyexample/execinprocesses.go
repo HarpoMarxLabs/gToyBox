@@ -14,7 +14,7 @@ import "syscall"
 import "os"
 import "os/exec"
 
-func exec_in_process_example() {
+func ExecInProcessExample() {
 
 	// For our example we'll exec `ls`. Go requires an
 	// absolute path to the binary we want to execute, so

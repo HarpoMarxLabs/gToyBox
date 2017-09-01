@@ -5,7 +5,7 @@ package gobyexample
 
 import "fmt"
 
-func ifelse_example() {
+func IfElseExample() {
 
 	// Here's a basic example.
 	if 7%2 == 0 {

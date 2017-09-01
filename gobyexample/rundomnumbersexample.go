@@ -8,7 +8,7 @@ import "time"
 import "fmt"
 import "math/rand"
 
-func random_numbers_example() {
+func RandomNumbersExample() {
 
 	// For example, `rand.Intn` returns a random `int` n,
 	// `0 <= n < 100`.

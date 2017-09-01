@@ -6,7 +6,7 @@ package gobyexample
 
 import "fmt"
 
-func var_example() {
+func VarExample() {
 
 	// `var` declares 1 or more variables.
 	var a string = "initial"

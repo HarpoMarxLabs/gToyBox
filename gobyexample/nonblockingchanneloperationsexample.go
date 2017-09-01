@@ -7,7 +7,7 @@ package gobyexample
 
 import "fmt"
 
-func nb_channels_example() {
+func NbChannelsExample() {
 	messages := make(chan string)
 	signals := make(chan bool)
 

@@ -19,7 +19,7 @@ func intSeq() func() int {
 	}
 }
 
-func recustion_example() {
+func RecursionExample() {
 
 	// We call `intSeq_clos`, assigning the result (a function)
 	// to `nextInt`. This function value captures its

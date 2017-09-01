@@ -12,7 +12,7 @@ import "os"
 import "os/signal"
 import "syscall"
 
-func signals_example() {
+func SignalsExample() {
 
 	// Go signal notification works by sending `os.Signal`
 	// values on a channel. We'll create a channel to

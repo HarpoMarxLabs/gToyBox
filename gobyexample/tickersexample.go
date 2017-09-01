@@ -9,7 +9,7 @@ package gobyexample
 import "time"
 import "fmt"
 
-func ticker_example() {
+func TickerExample() {
 
 	// Tickers use a similar mechanism to timers: a
 	// channel that is sent values. Here we'll use the

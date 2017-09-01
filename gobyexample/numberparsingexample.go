@@ -8,7 +8,7 @@ package gobyexample
 import "strconv"
 import "fmt"
 
-func number_parsing_examples() {
+func NumberParsingExamples() {
 
 	// With `ParseFloat`, this `64` tells how many bits of
 	// precision to parse.

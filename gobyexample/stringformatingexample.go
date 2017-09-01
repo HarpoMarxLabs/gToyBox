@@ -11,7 +11,7 @@ type point struct {
 	x, y int
 }
 
-func st_format_example() {
+func StFormatExample() {
 
 	// Go offers several printing "verbs" designed to
 	// format general Go values. For example, this prints

@@ -12,7 +12,7 @@ type person struct {
 	age  int
 }
 
-func structs_example() {
+func StructsExample() {
 
 	// This syntax creates a new struct.
 	fmt.Println(person{"Bob", 20})

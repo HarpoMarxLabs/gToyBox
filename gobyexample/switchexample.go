@@ -6,7 +6,7 @@ package gobyexample
 import "fmt"
 import "time"
 
-func switch_example() {
+func SwitchExample() {
 
 	// Here's a basic `switch`.
 	i := 2

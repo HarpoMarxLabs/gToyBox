@@ -5,8 +5,10 @@
 
 package gobyexample
 
-import "os"
-import "fmt"
+import (
+	"fmt"
+	"os"
+)
 
 func ComLineExample() {
 
@@ -15,12 +17,14 @@ func ComLineExample() {
 	// is the path to the program, and `os.Args[1:]`
 	// holds the arguments to the program.
 	argsWithProg := os.Args
-	argsWithoutProg := os.Args[1:]
+	if len(argsWithProg) > 1 {
+		argsWithoutProg := os.Args[1:]
 
-	// You can get individual args with normal indexing.
-	arg := os.Args[3]
+		// You can get individual args with normal indexing.
+		arg := os.Args[3]
 
-	fmt.Println(argsWithProg)
-	fmt.Println(argsWithoutProg)
-	fmt.Println(arg)
+		fmt.Println(argsWithProg)
+		fmt.Println(argsWithoutProg)
+		fmt.Println(arg)
+	}
 }

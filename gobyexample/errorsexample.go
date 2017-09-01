@@ -52,7 +52,7 @@ func f2(arg int) (int, error) {
 	return arg + 3, nil
 }
 
-func errors_example() {
+func ErrorsExample() {
 
 	// The two loops below test out each of our
 	// error-returning functions. Note that the use of an

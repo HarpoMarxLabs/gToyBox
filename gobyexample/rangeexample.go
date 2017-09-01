@@ -6,7 +6,7 @@ package gobyexample
 
 import "fmt"
 
-func range_example() {
+func RangeExample() {
 
 	// Here we use `range` to sum the numbers in a slice.
 	// Arrays work like this too.

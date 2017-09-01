@@ -6,7 +6,7 @@ package gobyexample
 import "fmt"
 import "os"
 
-func exit_example() {
+func ExitExample() {
 
 	// `defer`s will _not_ be run when using `os.Exit`, so
 	// this `fmt.Println` will never be called.

@@ -11,7 +11,7 @@ import "fmt"
 import "io/ioutil"
 import "os/exec"
 
-func spawning_process_example() {
+func SpawningProcessExample() {
 
 	// We'll start with a simple command that takes no
 	// arguments or input and just prints something to

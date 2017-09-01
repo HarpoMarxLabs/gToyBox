@@ -12,7 +12,7 @@ package gobyexample
 import "crypto/sha1"
 import "fmt"
 
-func sha1_example() {
+func Sha1Example() {
 	s := "sha1 this string"
 
 	// The pattern for generating a hash is `sha1.New()`,

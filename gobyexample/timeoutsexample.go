@@ -8,7 +8,7 @@ package gobyexample
 import "time"
 import "fmt"
 
-func timeout_example() {
+func TimeoutExample() {
 
 	// For our example, suppose we're executing an external
 	// call that returns its result on a channel `c1`

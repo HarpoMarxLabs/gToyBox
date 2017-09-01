@@ -19,7 +19,7 @@ func (r rect) perim() int {
 	return 2*r.width + 2*r.height
 }
 
-func methods_example() {
+func MethodsExample() {
 	r := rect{width: 10, height: 5}
 
 	// Here we call the 2 methods defined for our struct.

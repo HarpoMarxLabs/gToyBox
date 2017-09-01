@@ -19,7 +19,7 @@ type Response2 struct {
 	Fruits []string `json:"fruits"`
 }
 
-func json_example() {
+func JsonExample() {
 
 	// First we'll look at encoding basic data types to
 	// JSON strings. Here are some examples for atomic

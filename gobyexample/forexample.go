@@ -5,7 +5,7 @@ package gobyexample
 
 import "fmt"
 
-func for_example() {
+func ForExample() {
 
 	// The most basic type, with a single condition.
 	i := 1

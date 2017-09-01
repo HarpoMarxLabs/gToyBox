@@ -6,7 +6,7 @@ package gobyexample
 import "fmt"
 import "time"
 
-func tformat_example() {
+func TformatExample() {
 	p := fmt.Println
 
 	// Here's a basic example of formatting a time

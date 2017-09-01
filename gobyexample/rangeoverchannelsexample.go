@@ -7,7 +7,7 @@ package gobyexample
 
 import "fmt"
 
-func range_over_channels_example() {
+func RangeOverChannelsExample() {
 
 	// We'll iterate over 2 values in the `queue` channel.
 	queue := make(chan string, 2)

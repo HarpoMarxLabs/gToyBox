@@ -18,7 +18,7 @@ func sum(nums ...int) {
 	fmt.Println(total)
 }
 
-func var_func_example() {
+func VarFuncExample() {
 
 	// Variadic functions can be called in the usual way
 	// with individual arguments.
