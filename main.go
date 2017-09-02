@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"gToyBox/gobyexample"
+	"github.com/HarpoMarxLabs/gToyBox/gobyexample"
 )
 
 func main() {
