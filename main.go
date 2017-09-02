@@ -7,7 +7,7 @@ import (
 	"github.com/HarpoMarxLabs/gToyBox/gobyexample"
 )
 
-func main() {
+func RunExamples() {
 	fmt.Println("ArrayExample")
 	gobyexample.ArrayExample()
 	fmt.Println(strings.Repeat("#", 30))
@@ -255,5 +255,31 @@ func main() {
 	fmt.Println("WriteFileExample Example")
 	gobyexample.WriteFileExample()
 	fmt.Println(strings.Repeat("#", 30))
+}
 
+func main() {
+	for {
+		var choice int
+
+		fmt.Print("Choose an action:")
+		fmt.Println("0) Exit the program")
+		fmt.Println("1) Run all examples")
+		fmt.Println("2) Run custom example 1")
+
+		n, err := fmt.Scanln(&choice)
+		if n < 1 || err != nil {
+			fmt.Println("Invalid input")
+			break
+		}
+
+		switch choice {
+		case 1:
+			RunExamples()
+		case 2:
+			// Do nothing (we want to exit the loop)
+			// In a real program this could be cleanup
+		default:
+			fmt.Println("Invalid choice please select the propper value")
+		}
+	}
 }
