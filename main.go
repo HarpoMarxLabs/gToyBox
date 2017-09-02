@@ -1,6 +1,7 @@
 package main
 
 import (
+	//"errors"
 	"fmt"
 	"strings"
 
@@ -8,7 +9,7 @@ import (
 	"github.com/HarpoMarxLabs/gToyBox/gobyexample"
 )
 
-func RunExamples() {
+func RunExamples() (int, error) {
 	fmt.Println("ArrayExample")
 	gobyexample.ArrayExample()
 	fmt.Println(strings.Repeat("#", 30))
@@ -256,13 +257,16 @@ func RunExamples() {
 	fmt.Println("WriteFileExample Example")
 	gobyexample.WriteFileExample()
 	fmt.Println(strings.Repeat("#", 30))
+
+	return 0, nil
 }
 
 func main() {
 	for {
 		var choice int
+		exit_choice_selector := 1
 
-		fmt.Print("Choose an action:")
+		fmt.Println("Choose an action:")
 		fmt.Println("0) Exit the program")
 		fmt.Println("1) Run all examples")
 		fmt.Println("2) Run custom example 1")
@@ -274,12 +278,23 @@ func main() {
 		}
 
 		switch choice {
+		case 0:
+			exit_choice_selector = 0
+			break
 		case 1:
-			RunExamples()
+			if r, e := RunExamples(); e != nil {
+				fmt.Println("RunExamples failed:", e)
+			} else {
+				fmt.Println("RunExamples worked:", r)
+			}
+
 		case 2:
 			customexample.FirstExample()
 		default:
 			fmt.Println("Invalid choice please select the propper value")
+		}
+		if exit_choice_selector == 0 {
+			break
 		}
 	}
 }

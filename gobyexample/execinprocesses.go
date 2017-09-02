@@ -10,9 +10,11 @@
 
 package gobyexample
 
-import "syscall"
-import "os"
-import "os/exec"
+import (
+	"os"
+	"os/exec"
+	"syscall"
+)
 
 func ExecInProcessExample() {
 
