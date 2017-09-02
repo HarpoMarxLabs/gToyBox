@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/HarpoMarxLabs/gToyBox/customexample"
 	"github.com/HarpoMarxLabs/gToyBox/gobyexample"
 )
 
@@ -276,8 +277,7 @@ func main() {
 		case 1:
 			RunExamples()
 		case 2:
-			// Do nothing (we want to exit the loop)
-			// In a real program this could be cleanup
+			customexample.FirstExample()
 		default:
 			fmt.Println("Invalid choice please select the propper value")
 		}
